@@ -6,8 +6,9 @@ http://ionicframework.com
 
 ## Installation
 It is a node.js module based on Cordova framework.
-To install it:
+To install them:
 
 ```
+npm install -g cordova
 npm install -g ionic
 ```
