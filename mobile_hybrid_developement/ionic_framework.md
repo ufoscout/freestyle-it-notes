@@ -9,8 +9,7 @@ It is a node.js module based on Cordova framework.
 To install them:
 
 ```
-npm install -g cordova
-npm install -g ionic
+npm install -g cordova ionic gulp
 ```
 
 ## Create new project
