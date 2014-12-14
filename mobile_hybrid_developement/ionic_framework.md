@@ -22,3 +22,11 @@ ionic start appName [template]
 ```
 ionic serve
 ```
+
+## Run the application in emulated mode
+Install the needed platform (ios/android), then build the project and run the emulator
+```
+ionic platform add android
+ionic build android
+ionic emulate android
+```
