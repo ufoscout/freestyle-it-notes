@@ -8,5 +8,5 @@
 * Software
    * [Skype](software/skype.md)
 * Test Article
-   * first section
+   * [first section](test_article/first_section.md)
 
