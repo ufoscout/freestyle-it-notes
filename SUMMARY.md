@@ -7,6 +7,4 @@
    * [Ionic Framework](mobile_hybrid_developement/ionic_framework.md)
 * Software
    * [Skype](software/skype.md)
-* Test Article
-   * [first section](test_article/first_section.md)
 
