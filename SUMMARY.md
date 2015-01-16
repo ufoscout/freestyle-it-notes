@@ -9,5 +9,5 @@
    * [Skype](software/skype.md)
 * Reactive Programming
    * [Reactive Streams](reactive_programming/reactive_streams.md)
-   * Glossary
+   * [Glossary](reactive_programming/glossary.md)
 
