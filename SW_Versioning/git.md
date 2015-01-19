@@ -1,5 +1,15 @@
 # GIT
 
+## Init new repository
+Create a new repository on the command-line (file README.md is already created)
+```
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin repoUrl
+$ git push -u origin master
+```
+
 ## Basic Branching
 Create a branch
 ```
