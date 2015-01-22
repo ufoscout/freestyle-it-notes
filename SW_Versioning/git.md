@@ -31,3 +31,8 @@ To push remote the locally created branch
 ```
 $ git push -u origin feature_branch_name
 ```
+
+To push all branches
+```
+$ git push --all origin
+```
