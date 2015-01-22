@@ -36,3 +36,12 @@ To push all branches
 ```
 $ git push --all origin
 ```
+
+To list existing branches
+```
+# remote + local branches
+$ git branch -a
+
+# remote only
+$ git branch -r
+```
