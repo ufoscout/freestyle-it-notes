@@ -16,3 +16,12 @@ It could be needed to install 'apparmor' if not available:
 ```
 sudo apt-get install apparmor
 ```
+
+
+## Work with images
+
+```
+docker pull -t latest <imageName>
+# or
+docker pull <imageName>:<tagname>
+```
