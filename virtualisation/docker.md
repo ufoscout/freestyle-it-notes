@@ -1,5 +1,11 @@
 # Docker
 
+## Configuration
+By default docker uses /var/lib/docker as folder, to change it modify the file "/etc/default/docker.io" and add "-g desiredFolder" to the line:
+DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4"
+eg:
+DOCKER_OPTS="-dns 8.8.8.8 -dns 8.8.4.4 -g /mnt"
+
 ## Load the docker daemon in ubuntu
 ```
 sudo service docker.io restart
