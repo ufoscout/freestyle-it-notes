@@ -45,3 +45,9 @@ $ git branch -a
 # remote only
 $ git branch -r
 ```
+
+To cache the credentials (it should work only with https connectors):
+```
+git config --global credential.helper 'cache --timeout 3600'
+```
+
