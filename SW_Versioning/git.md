@@ -51,3 +51,8 @@ To cache the credentials (it should work only with https connectors):
 git config --global credential.helper 'cache --timeout 3600'
 ```
 
+Merge a branch without fast-fastword and without autocommit
+```
+git merge <branchName> --no-commit --no-ff
+```
+
