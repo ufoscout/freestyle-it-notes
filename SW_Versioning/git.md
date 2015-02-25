@@ -56,3 +56,9 @@ Merge a branch without fast-fastword and without autocommit
 git merge <branchName> --no-commit --no-ff
 ```
 
+Delete all local unstaged file/directory and revert modified unstaged files:
+```
+git clean -df
+git checkout -- .
+```
+
