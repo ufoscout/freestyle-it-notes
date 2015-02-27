@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * SW Versioning
    * [GIT](SW_Versioning/git.md)
+   * SVN to GIT migration
 * Mobile Hybrid Development
    * [Ionic Framework](mobile_hybrid_developement/ionic_framework.md)
 * Software
