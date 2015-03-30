@@ -65,3 +65,8 @@ git merge <branchName> --no-commit --no-ff
 ```
 
 Merge using the --squash option, all of the commits made on branch B will be "lumped together" and merged as a single commit.
+
+The easy way of squashing all the commits performed in a topic branch is:
+```
+git reset referenceReleaseBranch
+```
