@@ -51,14 +51,17 @@ To cache the credentials (it should work only with https connectors):
 git config --global credential.helper 'cache --timeout 3600'
 ```
 
-Merge a branch without fast-fastword and without autocommit
-```
-git merge <branchName> --no-commit --no-ff
-```
-
 Delete all local unstaged file/directory and revert modified unstaged files:
 ```
 git clean -df
 git checkout -- .
 ```
 
+## Merge
+
+Merge a branch without fast-fastword and without autocommit
+```
+git merge <branchName> --no-commit --no-ff
+```
+
+Merge using the --squash option, all of the commits made on branch B will be "lumped together" and merged as a single commit.
