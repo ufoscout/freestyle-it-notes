@@ -1,6 +1,6 @@
 # GIT
 
-## Init new repository
+## Init new repository 
 Create a new repository on the command-line (file README.md is already created)
 ```
 $ git init
