@@ -3,7 +3,8 @@
 ## Install
 It could be needed to install 'apparmor' if not available:
 ```
-sudo apt-get install docker.io apparmor
+apt-get install apparmor
+wget -qO- https://get.docker.com/ | sh
 ```
 
 ## Configuration
