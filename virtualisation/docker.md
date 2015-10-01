@@ -30,3 +30,8 @@ docker pull -t latest <imageName>
 # or
 docker pull <imageName>:<tagname>
 ```
+
+## Enter a running container
+```
+docker exec -it <containerId> bash
+```
