@@ -57,6 +57,14 @@ git clean -df
 git checkout -- .
 ```
 
+Set the local author and email for a repository:
+```
+git config user.email me@example.com
+git config user.name "My Name" 
+```
+If you add the flag --global then it modifies your global config. 
+
+
 ## Merge
 
 Merge a branch without fast-fastword and without autocommit
