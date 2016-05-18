@@ -57,6 +57,11 @@ git clean -df
 git checkout -- .
 ```
 
+Delete local branches no longer on remote:
+```
+git remote prune origin
+```
+
 Set the local author and email for a repository:
 ```
 git config user.email me@example.com
